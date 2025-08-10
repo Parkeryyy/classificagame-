@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassificaGame</title>
+    <link rel="stylesheet" href="rankstyle.css">
+</head>
+<body>
+    <header>
+        <h1>ClassificaGame</h1>
+        <nav class="topo">
+            <a href="index.html">Início</a>
+            <a href="classifique.html">Classifique</a>
+            <a href="para_devs.html">Para devs</a>
+            <a href="desafios.html">Desafios</a>
+            <a href="comunidade.html">Comunidade</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Classifique o jogo!</h2>
+        <p>Aqui você pode escolher qualquer jogo que quiser e classificar ele entre 0 e 10 pontos. Você pode também comentar o que quiser sobre o videogame.</p>
+        <section class="classificacao">
+            <div class="imagemdojogo">
+                <img src="minecraft.jpg" alt="capa do jogo Minecraft">
+            </div>
+            <form class="formulario">
+                <h2>Classifique um jogo</h2>
+                <label for="titulo">Título: </label>
+                <input type="text" id="titulo" name="titulo" placeholder="Ex: Minecraft" required>
+                <label for="desenvolvedor">Desenvolvedor: </label>
+                <input type="text" id="desenvolvedor" name="desenvolvedor" placeholder="Estúdio ou pessoa" required>
+                <label for="nota">Nota (0 a 10): </label>
+                <input type="number" id="nota" name="nota" min="0" max="10" required>
+                <label for="comentario">Comentários: </label>
+                <textarea id="comentario" name="comentario" placeholder="Escreva aqui o que achou do jogo..." rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav class="footer_menu">
+            <p>Início</p>
+            <p>Sobre</p>
+            <p>Serviços</p>
+            <p>Contato</p>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassificaGame</title>
+    <link rel="stylesheet" href="desafio.css">
+</head>
+<body>
+    <header>
+        <h1>ClassificaGame</h1>
+        <nav class="topo">
+            <a href="index.html">Início</a>
+            <a href="classifique.html">Classifique</a>
+            <a href="para_devs.html">Para devs</a>
+            <a href="desafios.html">Desafios</a>
+            <a href="comunidade.html">Comunidade</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Jogue e classifique o jogo da semana!</h2>
+        <p>Aqui você vai dizer o que você achou do jogo com mais destaque dessa semama.</p>
+        <section class="classificacao">
+            <div class="imagemdojogo">
+                <img src="metro.jpg" alt="capa do jogo Metro last night">
+            </div>
+            <form class="formulario">
+                <h2>Classifique: Metro last light</h2>
+                <label for="nota">Nota (0 a 10): </label>
+                <input type="number" id="nota" name="nota" min="0" max="10" required>
+                <label for="comentario">Comentários: </label>
+                <textarea id="comentario" name="comentario" placeholder="Escreva aqui o que achou do jogo..." rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav class="footer_menu">
+            <p>Início</p>
+            <p>Sobre</p>
+            <p>Serviços</p>
+            <p>Contato</p>
+        </nav>
+    </footer>
+</body>
+</html>

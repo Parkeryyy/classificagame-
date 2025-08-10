@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #8b1e3f;;
+    color: #89bd9e;
+    line-height: 1.6;
+}
+header{
+    background-color: #db4c40;
+    color: #89bd9e;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    font-size: 2.5rem;
+}
+nav.topo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 0;
+    background-color: #de5c51;
+    flex-wrap: wrap;
+}
+nav.topo a{
+    color: #3c153b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav.topo a:hover{
+    color: #89bd9e;
+}
+.comunidade{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.comunidade h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.post{
+    display: flex;
+    background: #331132;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.game-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.post-info{
+    flex: 1;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.avatar{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.username{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.date{
+    font-size: 0.85rem;
+}
+.rate{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.comentario{
+    font-size: 0.95;
+}
+footer{
+    background-color: #f0c987;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+footer .footer_menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+footer .footer_menu p {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+footer .footer_menu p:hover {
+  color: #db4c40;
+}

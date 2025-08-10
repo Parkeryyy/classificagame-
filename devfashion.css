@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    margin: 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #8b1e3f;;
+    color: #89bd9e;
+    line-height: 1.6;
+}
+header{
+    background-color: #db4c40;
+    color: #89bd9e;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    font-size: 2.5rem;
+}
+nav.topo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 0;
+    background-color: #de5c51;
+    flex-wrap: wrap;
+}
+nav.topo a{
+    color: #3c153b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav.topo a:hover{
+    color: #89bd9e;
+}
+main{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+main h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+main p{
+    margin-bottom: 30px;
+    font-size: 1rem;
+    color: #89bd9e;
+}
+.classificacao{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #3c153b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #331132;
+}
+.imagemdojogo{
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+.imagemdojogo img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.formulario{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.formulario h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #89bd9e;
+    text-decoration: underline;
+}
+.formulario label{
+    font-weight: bold;
+}
+.formulario input,
+.formulario textarea{
+    padding: 10px;
+    border: 1px solid #89bd9e;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.formulario button{
+    padding: 12px;
+    background-color: #db4c40;
+    color: #89bd9e;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.formulario button:hover{
+    background-color: #331132;
+}
+footer{
+    background-color: #f0c987;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+footer .footer_menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+footer .footer_menu p {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+footer .footer_menu p:hover {
+  color: #db4c40;
+}
+@media (max-width: 768px) {
+  .classificacao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagemdojogo,
+  .formulario {
+    max-width: 100%;
+  }
+}
