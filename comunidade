@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassificaGame</title>
+    <link rel="stylesheet" href="comunidade.css">
+</head>
+<body>
+    <header>
+        <h1>ClassificaGame</h1>
+        <nav class="topo">
+            <a href="site.html">Início</a>
+            <a href="classifique.html">Classifique</a>
+            <a href="para_devs.html">Para devs</a>
+            <a href="desafios.html">Desafios</a>
+            <a href="comunidade">Comunidade</a>
+        </nav>
+    </header>
+    <footer>
+        <nav class="footer_menu">
+            <p>Início</p>
+            <p>Sobre</p>
+            <p>Serviços</p>
+            <p>Contato</p>
+        </nav>
+    </footer>
+</body>
+</html>
